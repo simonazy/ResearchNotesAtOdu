@@ -36,6 +36,7 @@ Carla has been written using a very famous engine for video-games: **Unreal Engi
 
     With this fixed attachment the object follow its parent position strictly. This is the recommended attachment to retrieve precise data from the simulation.
 - **SpringArm**
+
     An attachment that expands or retracts the position of the actor, depending on its parent. This attachment is only recommended to record videos from the simulation where a smooth movement is needed. 
 
 So, we could end up adjusting the three cameras to the following locations(under the CameraManager class):
