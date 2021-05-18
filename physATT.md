@@ -11,7 +11,7 @@ Modular pipeline are systems that deploy an array of advanced computer vision al
 
 
 End-to-end learning for self-driving cars has been explored
-since the late 1980s. This approach is to train function apporximators to map sensory input to control commands. More specifically, consider a driving controller, at each time step t, the controller receives an obervation $ o_t $ and takes an action $a_t$. The approximator function could be wrote as: $a_t = E(o_t)$. Systems in this domain is to learn by imitating a human or an expert driver. 
+since the late 1980s. This approach is to train function apporximators to map sensory input to control commands. More specifically, consider a driving controller, at each time step t, the controller receives an obervation <img src="https://render.githubusercontent.com/render/math?math=o_t"> and takes an action <img src="https://render.githubusercontent.com/render/math?math=a_t">. The approximator function could be wrote as: <img src="https://render.githubusercontent.com/render/math?math=a_t = E(O_t)">. Systems in this domain is to learn by imitating a human or an expert driver. 
 
 The following papers are related to end-to-end driving models.
 
