@@ -6,7 +6,7 @@ Autonoumous driving approaches can be divided into two main paradigms depending 
 Modular pipeline are systems that deploy an array of advanced computer vision algorithms used for perception, planning and control. AI drivers rely on modules with identifiable responsibilities. For instance, the perception module involves more specific sub-tasks such as [oject detection](https://arxiv.org/abs/1506.01497), [traffic sign recognition](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhu_Traffic-Sign_Detection_and_CVPR_2016_paper.html), [semantic segmentation](https://openaccess.thecvf.com/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html), [depth estimation](https://ieeexplore.ieee.org/abstract/document/8296962?casa_token=6qLx_FDS75cAAAAA:Se5A8sWzRWgMhB2k-s19Yt3Tz4mtQQcWwuL7vXxmZBPdBMrWVb3QWHPolkLrkkhfUy6UHn-9), and [tracking](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Xiang_Learning_to_Track_ICCV_2015_paper.html), etc. As shown in the image below. 
 
 <p align='center'>
-<img src="images/modular.png" width = '250px'>
+<img src="images/modular.png" width = '400px'>
 </p>
 
 
