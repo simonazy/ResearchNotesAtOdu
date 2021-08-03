@@ -14,6 +14,7 @@ When it comes to BIM, it is a straightforward way to extend the FGSM method by a
 
 
 ADVERSARIAL PATCH
+
 Adversarial patch was firstly implemented by Brown. It is introduced as an universal, robust patch that fools DNN regardless of the scale or location of the patch. They are universal because they can be used to attack any scene, robust because they work under a wide variety of transformations. In realistic world, we can print out the patches and add it to any scene, while in simulator, we can try different size and location of the patch attached to the input images before they are passed to DNN.  
 ![image](https://user-images.githubusercontent.com/56880104/128085696-6d01cd43-64be-48b5-bf2d-23dff55d0f9b.png)
 
