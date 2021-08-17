@@ -2,6 +2,7 @@
 
 
 Basic Iterative Method (BIM)
+
 The Basic Iterative Method is presented by Kurakin and Goodfellow. It is the iterative version of Fast Gradient Method (FGM), also known as "Fast Gradient Sign Method (FGSM)，which is one of the easiest methods to generate adversarial images. FGM was firstly implemented by Good fellow.
 
 There are four key elements in the Fast Gradient Method. 1)Input images. An input image is typically a 3-D tensor (width * height * channel). The value of image pixels are integers falling into the range of [0,255]. 2) Ground-truth label: Let y represents the ground-truth label. 3) J (, , y): J is the cost function of the neural network, given the input image  and ground-truth y, and  is the network weights. 4): correspond to the maximum magnitude of modifications for the image. 
